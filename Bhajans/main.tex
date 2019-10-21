@@ -1,34 +1,33 @@
-% TODO: Learn how configure page.
-\documentclass[12pt]{article}
+\documentclass[a4paper,14pt]{extarticle}
 
-\usepackage{fancyhdr}
+% Page configuration.
 \usepackage{geometry}
-\geometry{
-    a4paper,
-    total={210mm,297mm},
+\geometry{a4paper,total={210mm,297mm},
     left=30mm,
     right=20mm,
     top=30mm,
     bottom=30mm,
 }
 
-
-% Header and Footer styles.
-\pagestyle{fancy}
-\fancyhf{}
-\rfoot{\thepage}
+% Songs settings.
+\usepackage{songs}
+\songcolumns{0}
+\nosongnumbers
+\noversenumbers
 
 \begin{document}
-
-    \begin{flushleft}
-
+    \begin{songs}{}
+    
         % Diwali puja.
+        \songsection{Diwali puja}
+        
         \input{Diwali/M26_Lakshmi_Ali}
         \input{Diwali/HAS53_Ayi_Aaj_Diwali.tex}
 
         % Navaratri puja.
+        \songsection{Navaratri puja}
+        
         \input{Navaratri/S2_Ayi_Giri_Nandini}
-
-    \end{flushleft}
-
+        
+    \end{songs}
 \end{document}
