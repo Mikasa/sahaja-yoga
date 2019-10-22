@@ -1,0 +1,11 @@
+{
+  "files.exclude": {
+    "**/*.pdf": true,
+    "**/*.aux": true,
+    "**/*.fdb*": true,
+    "**/*.fls": true,
+    "**/*.synctex*": true,
+    "**/*.log": true,
+    "**/*.dvi": true,
+  }
+}
