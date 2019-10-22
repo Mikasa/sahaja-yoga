@@ -7,5 +7,6 @@
     "**/*.synctex*": true,
     "**/*.log": true,
     "**/*.dvi": true,
+    "**/*_temp.tex": true
   }
 }
