@@ -1,7 +1,10 @@
 \documentclass[a4paper,14pt]{extarticle}
 
-% Page configuration.
+% Packages.
 \usepackage{geometry}
+\usepackage{songs}
+
+% Page configuration.
 \geometry{a4paper,
     left=30mm,
     right=20mm,
@@ -10,25 +13,25 @@
 }
 
 % Songs settings.
-\usepackage{songs}
+\chordsoff{}
 \songcolumns{0}
-\nosongnumbers
-\noversenumbers
+\nosongnumbers{}
+\noversenumbers{}
 
 \begin{document}
     \begin{songs}{}
 
         % Diwali puja.
-        \songsection{Diwali puja} \newpage
+        \songsection{Diwali puja}
 
-        \input{Diwali/M26_Lakshmi_Ali}
-        \input{Diwali/HAS53_Ayi_Aaj_Diwali}
-        \input{Diwali/M3_He_Adi_Ma}
+        % \input{Diwali/M26_Lakshmi_Ali}
+        % \input{Diwali/HAS53_Ayi_Aaj_Diwali}
+        % \input{Diwali/M3_He_Adi_Ma}
 
         % Navaratri puja.
         \songsection{Navaratri puja} \newpage
 
-        \input{Navaratri/S2_Ayi_Giri_Nandini}
+        % \input{Navaratri/S2_Ayi_Giri_Nandini}
 
     \end{songs}
 \end{document}
